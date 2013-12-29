@@ -26,4 +26,48 @@ $code-color-punctuation:  $monokai-white;
 $code-color-punctuation2: $monokai-red;
 $code-color-datatype:     $monokai-blue;
 
-@import "../vendors/sass-prism-theme-base/prism"
+@import "../vendors/sass-prism-theme-base/prism";
+
+#{$code-selector} {
+  .token {
+    &.punctuation2 {
+      color: $code-color-punctuation2;
+    }
+
+    &.datatype {
+      color: $code-color-datatype;
+    }
+
+    &.operator {
+      color: $code-color-operator;
+    }
+
+    &.keyword2 {
+      color: $code-color-keyword2;
+    }
+
+    &.class-extension {
+      color: $code-color-class-ext;
+    }
+
+    &.dockblock {
+      color: $code-color-docblock;
+    }
+
+    &.const {
+      color: $code-color-const;
+    }
+
+    &.scope .keyword {
+      color: $code-color-keyword2;
+    }
+
+    &.function {
+      color: $code-color-function;
+    }
+
+    &.punctuation {
+      color: $code-color-punctuation;
+    }
+  }
+}
