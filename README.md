@@ -1,7 +1,6 @@
-Prism monokai PHP
-=================
+# Prism monokai PHP
 
-Add monokai theme to PrismJS and better support for PHP language.
+Add monokai theme to [PrismJS](http://prismjs.org) and better support for PHP language.
 
 I use Sublime Text 3 as my default text editor and I love the Monokai theme that
 is available. Some elements are not higlighted in Prism and is not possibile style
@@ -10,8 +9,17 @@ PHP code as visibile in ST3.
 This package implements some new rules and override other to have better syntax
 highlight and add monokai theme.
 
-Usage
------
+## Demo
+
+Sublime Text 3:
+
+![monokai ST3](demo/monokai-st3.png)
+
+Prism with prism-monokai-php:
+
+![monokai Prism](demo/monokai-prism.png)
+
+## Usage
 
 After include prism and other PHP language detection script, add also the ```prism-monokai-php.min.js```. This enable some new element higlight. To enable Monokai theme add also the ```prism-monokai-php.min.css```:
 
@@ -20,8 +28,8 @@ After include prism and other PHP language detection script, add also the ```pri
   <link src="/mavimo/prism-monokai-php/dist/prism-monokai-php.min.css" />
 ```
 
-Development
------------
+## Development
+
 Install dependencies using bower and npm:
 
 ```bash
