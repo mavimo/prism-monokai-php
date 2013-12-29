@@ -13,7 +13,7 @@
     "vendors",
     "src"
   ],
-  "dependencies": {
+  "devDependencies": {
     "sass-prism-theme-base": "git@github.com:MoOx/sass-prism-theme-base.git"
   }
 }
