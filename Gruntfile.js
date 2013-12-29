@@ -25,7 +25,7 @@ module.exports = function (grunt) {
           style: 'compressed'
         },
         files: {
-          'dist/prism-monokai-php.min.css': 'src/monokai.scss'
+          'dist/prism-monokai-php.min.css': 'src/prism-monokai-php.scss'
         }
       }
     }
