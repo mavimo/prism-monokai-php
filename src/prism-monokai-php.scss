@@ -1,13 +1,18 @@
+// Font definition
+$code-font-size:    16px;
+
 // Monokai colors
-$monokai-gray:      #6f705e;
-$monokai-red:       #f12770;
-$monokai-green:     #a6e22d;
-$monokai-yellow:    #e6d06c;
+$monokay-background:#272822;
+$monokai-gray:      #75715E;
+$monokai-red:       #F92672;
+$monokai-green:     #A6E22E;
+$monokai-yellow:    #E6DB74;
 $monokai-blue:      #76d9e6;
-$monokai-white:     #ffffff;
-$monokai-violet:    #a77afe;
+$monokai-white:     #F8F8F0;
+$monokai-violet:    #AE81FF;
 
 // prism variables
+$code-background:         $monokay-background;
 $code-color-comment:      $monokai-gray;
 $code-color-keyword:      $monokai-red;
 $code-color-keyword2:     $monokai-blue;
