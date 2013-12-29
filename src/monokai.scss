@@ -1,0 +1,29 @@
+// Monokai colors
+$monokai-gray:      #6f705e;
+$monokai-red:       #f12770;
+$monokai-green:     #a6e22d;
+$monokai-yellow:    #e6d06c;
+$monokai-blue:      #76d9e6;
+$monokai-white:     #ffffff;
+$monokai-violet:    #a77afe;
+
+// prism variables
+$code-color-comment:      $monokai-gray;
+$code-color-keyword:      $monokai-red;
+$code-color-keyword2:     $monokai-blue;
+$code-color-value:        $monokai-blue;
+$code-color-string:       $monokai-yellow;
+$code-color-name:         $monokai-yellow;
+$code-color-number:       $monokai-violet;
+$code-color-variable:     $monokai-white;
+$code-color-selector:     $monokai-green;
+$code-color-function:     $monokai-green;
+$code-color-class-ext:    $monokai-green;
+$code-color-const:        $monokai-violet;
+$code-color-docblock:     $monokai-red;
+$code-color-operator:     $monokai-red;
+$code-color-punctuation:  $monokai-white;
+$code-color-punctuation2: $monokai-red;
+$code-color-datatype:     $monokai-blue;
+
+@import "../vendors/sass-prism-theme-base/prism"
