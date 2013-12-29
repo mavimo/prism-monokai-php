@@ -1,6 +1,6 @@
 # Prism monokai PHP
 
-Add monokai theme to [PrismJS](http://prismjs.org) and better support for PHP language.
+Add [monokai theme](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/) to [PrismJS](http://prismjs.com) and better support for PHP language.
 
 I use Sublime Text 3 as my default text editor and I love the Monokai theme that
 is available. Some elements are not higlighted in Prism and is not possibile style
